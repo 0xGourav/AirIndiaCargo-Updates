@@ -1,0 +1,251 @@
+{
+  "app": "Air India Cargo",
+  "versionName": "1.1",
+  "versionCode": 3,
+  "builtAt": 1792164518247,
+  "commit": "d743aee761bc20e3033c1399594d77631ea3f292",
+  "publishedAt": 1792164707830,
+  "release": {
+    "file": "app-release.apk",
+    "sha": "3c17f3de037272e3e45bb5094bfab577261787a6",
+    "size": 3845068
+  },
+  "debug": {
+    "file": "app-debug.apk",
+    "sha": "ecc6670cda0ab8e503863881a55dfe3e6feaf49b",
+    "size": 13557147
+  },
+  "builds": [
+    {
+      "at": 1792164518247,
+      "commit": "d743aee761bc",
+      "items": [
+        "Web Mode has two kinds now: Public puts an encrypted copy on GitHub Pages (aicargoapp.github.io) that opens from any network with its link; Private works on the same Wi-Fi as the phone.",
+        "Turn on Public Web in Settings \u203a Developer Options and connect GitHub once with a token."
+      ]
+    },
+    {
+      "at": 1792163661804,
+      "commit": "31bf440d84f9",
+      "items": [
+        "Web Mode's public link is removed for now (it didn't connect). Web Mode works on the same Wi-Fi as the phone."
+      ]
+    },
+    {
+      "at": 1792160492369,
+      "commit": "c3832e34879f",
+      "items": [
+        "Web Mode now works from anywhere: turn on Public Link in Settings for an https link that opens it from any network (it always asks for the PIN), or use Tailscale for a private address on your own devices.",
+        "Web Mode keeps running in the background with a notification, and comes back after the phone restarts."
+      ]
+    },
+    {
+      "at": 1792157621094,
+      "commit": "9fed4e8e64b1",
+      "items": [
+        "Web Mode looks and works better in a browser: a Home dashboard, a new Bookings page with each booking's live status, photo previews in a grid, a viewer for pictures and PDFs, and Ctrl+K to search everything.",
+        "Web Mode pages show when something changes on the phone, and too many wrong PINs make the browser wait."
+      ]
+    },
+    {
+      "at": 1792145615581,
+      "commit": "835f028f05ff",
+      "items": [
+        "No more keyboard flashing up while the app tracks an AWB by itself (Track Shipment, Full tracking, Track History)"
+      ]
+    },
+    {
+      "at": 1792144970735,
+      "commit": "e28f744c6af3",
+      "items": [
+        "Track Shipment: the airline as the portal has it (IX or AI) and the flight's own actual departure and arrival times",
+        "Shipments that change planes show the stop: DEL \u2192 BOM \u2192 COK"
+      ]
+    },
+    {
+      "at": 1792143718377,
+      "commit": "43f308e6f37c",
+      "items": [
+        "Track Shipment: shows the flight the cargo actually flew on, not one it was only booked on",
+        "The route is the real one (DEL to SXR), no longer two goods codes read off the page (AGC to NUT)"
+      ]
+    },
+    {
+      "at": 1792142811837,
+      "commit": "ee983a62f993",
+      "items": [
+        "Track Shipment: a flight the cargo was offloaded from is no longer shown, and the flight it flew on has its departure and arrival times",
+        "The weight is the weighed one (103.5 kg, not the booking's 100 kg), and the route is shown even when the booking didn't say it"
+      ]
+    },
+    {
+      "at": 1792141451672,
+      "commit": "3b4fb281367d",
+      "items": [
+        "Software Update: a download made just as a new version goes up is fetched again by itself instead of failing"
+      ]
+    },
+    {
+      "at": 1792141082571,
+      "commit": "21e3aee47203",
+      "items": [
+        "Settings > General > App Updates: an Update Log of every check, download and install, and what the last check found",
+        "A new version can't be missed: if its box can't come up, a notification opens Software Update"
+      ]
+    },
+    {
+      "at": 1792140419734,
+      "commit": "be74031c0488",
+      "items": [
+        "Track Shipment: the flight's arrival time is shown (scheduled or expected), with its actual departure time",
+        "The weight is read whole (1,808 kg, not 808), and Full tracking no longer splits dates"
+      ]
+    },
+    {
+      "at": 1792139712820,
+      "commit": "537df545fece",
+      "items": [
+        "Software Update: an update published while one was downloading no longer fails as \"The download didn't match\""
+      ]
+    },
+    {
+      "at": 1792139261796,
+      "commit": "452fdbb2645b",
+      "items": [
+        "A new version is offered even while the Track Shipment sheet or Settings is open"
+      ]
+    },
+    {
+      "at": 1792138863955,
+      "commit": "30826834d6fa",
+      "items": [
+        "Track Shipment: the top card now shows the flight - AI 2458, in the air or scheduled, DEL to COK with the times and a plane on its way",
+        "The shipment's weight is always shown, taken exactly from the timeline",
+        "Auto Update (Settings > General > App Updates): new versions download and install by themselves, with the app open or closed"
+      ]
+    },
+    {
+      "at": 1792137665721,
+      "commit": "8261b6427895",
+      "items": [
+        "New versions are offered within 2 minutes while the app is open",
+        "With the app closed, a notification tells you when a new version is ready - tap it to update"
+      ]
+    },
+    {
+      "at": 1792136918283,
+      "commit": "f39288ae4a98",
+      "items": [
+        "Track Shipment: the keyboard no longer pops up while the sheet checks again, and the sheet stays where you scrolled it",
+        "Full tracking shows only the shipment: never the search screen, and the page no longer switches views on its own",
+        "The route no longer changes to the same airport twice (DEL \u2192 DEL), and a trolley or container (BT1331) is no longer shown as a flight"
+      ]
+    },
+    {
+      "at": 1792126421252,
+      "commit": "2c255dc91156",
+      "items": [
+        "Track Shipment: Full tracking shows only your shipment - no more search form and loading squares",
+        "Track Shipment: a Summary / Full tracking switch at the top replaces the Summary button"
+      ]
+    },
+    {
+      "at": 1792124747966,
+      "commit": "bd973107fd90",
+      "items": [
+        "About shows when your build was made, and What's new now lists the latest updates with their dates",
+        "Software Update shows what's new in your build even when there's nothing newer"
+      ]
+    },
+    {
+      "at": 1792124164134,
+      "commit": "f816b815a76f",
+      "items": [
+        "Track Shipment: refreshes by itself every 10 seconds while it's open - the line at the top shows when it last updated"
+      ]
+    },
+    {
+      "at": 1792123507759,
+      "commit": "887ecf77161c",
+      "items": [
+        "Track Shipment: fixed \"Couldn't update\" - it now reads the shipment's status, timeline, pieces and flight",
+        "Track Shipment: if it ever can't read one, long-press the line at the top for what it saw (with Copy)"
+      ]
+    },
+    {
+      "at": 1792122837683,
+      "commit": "b5a502d4d1d7",
+      "items": [
+        "Track Shipment: opens straight away with where your shipment is, then updates itself - no more portal form and spinner",
+        "Track Shipment: pull it up for the full timeline with places and times, pieces, goods and flights; Details, Share and Reminder always at the bottom",
+        "Track Shipment page: tracking several AWBs gives each one a tab with its status"
+      ]
+    },
+    {
+      "at": 1792120078650,
+      "commit": "d5073af472b7",
+      "items": [
+        "New updates now pop up within minutes - each time you come back to the app, and every 15 minutes while it's open (it used to wait up to an hour)"
+      ]
+    },
+    {
+      "at": 1792118893156,
+      "commit": "af07000b138a",
+      "items": [
+        "All Bookings: View Details is back in each booking's \u22ee menu (and swiping a booking right opens it)",
+        "The \u22ee menu no longer has AWB QR Code"
+      ]
+    },
+    {
+      "at": 1792007782593,
+      "commit": "a4c20c4725c1",
+      "items": [
+        "Profile sheet: swipe right to sign out"
+      ]
+    },
+    {
+      "at": 1792004900689,
+      "commit": "a5f2e6c09098",
+      "items": [
+        "Tapping your profile picture at the top opens your profile again",
+        "The little down arrow next to it stays hidden and does nothing"
+      ]
+    },
+    {
+      "at": 1792002343424,
+      "commit": "c364a9c3bc44",
+      "items": [
+        "Header: tapping your profile circle no longer opens anything (sign out is in Settings)"
+      ]
+    },
+    {
+      "at": 1792001787936,
+      "commit": "d4c87285665a",
+      "items": [
+        "Header: the down arrow beside your profile circle is gone"
+      ]
+    },
+    {
+      "at": 1792000767917,
+      "commit": "8a081c4c4252",
+      "items": [
+        "Header: the little down arrow beside your profile circle is gone"
+      ]
+    },
+    {
+      "at": 1791950607079,
+      "commit": "c457949048c1",
+      "items": [
+        "Saved Files: each AWB with its route (DEL to BOM, and the cities), booking date, pieces, weight and status - and a search box"
+      ]
+    },
+    {
+      "at": 1791943402911,
+      "commit": "08e72f38725d",
+      "items": [
+        "All Bookings filter: Booking Status - Confirmed and Queued can be picked again",
+        "All Bookings filter: room to type - the airport list opens below its box"
+      ]
+    }
+  ]
+}
