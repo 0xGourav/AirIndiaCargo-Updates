@@ -1,0 +1,259 @@
+{
+  "app": "Air India Cargo",
+  "versionName": "1.1",
+  "versionCode": 3,
+  "builtAt": 1792828108001,
+  "commit": "8f22cef7d501f88fd57209e801833cf1a490a28d",
+  "publishedAt": 1792828372752,
+  "release": {
+    "file": "app-release.apk",
+    "sha": "8a1b8358cb2330b631529cdaa0bbc433f0524824",
+    "size": 4617783
+  },
+  "debug": {
+    "file": "app-debug.apk",
+    "sha": "2dc54b565d75ea060730785521ad2b2f882356f1",
+    "size": 13683382
+  },
+  "builds": [
+    {
+      "at": 1792828108001,
+      "commit": "8f22cef7d501",
+      "items": [
+        "Booking status is checked for 4 AWBs at once, so your bookings fill in faster"
+      ]
+    },
+    {
+      "at": 1792826827612,
+      "commit": "a08f02091ed5",
+      "items": [
+        "Notifications name the flight even when it leaves after midnight",
+        "A landed flight no longer reads \"scheduled\" again a day later",
+        "New bookings get their flight in the alert, however far down the list",
+        "Track Shipment no longer shows Departed for an offloaded shipment"
+      ]
+    },
+    {
+      "at": 1792825583593,
+      "commit": "32d341794047",
+      "items": [
+        "Closed notifications show the cities too - AI-2487 \u00b7 Delhi 8:40 AM \u2192 Port Blair 12:05 PM"
+      ]
+    },
+    {
+      "at": 1792824723946,
+      "commit": "270e6ad4a169",
+      "items": [
+        "Notifications show the flight with the cities in full - AI-2487 \u00b7 Delhi \u2192 Port Blair - then its departure and arrival"
+      ]
+    },
+    {
+      "at": 1792824134209,
+      "commit": "d3ceafa48a06",
+      "items": [
+        "New booking alerts show the flight number with its departure and arrival times, even before the cargo is handed over",
+        "Notifications show the cities in full - Delhi \u2192 Port Blair"
+      ]
+    },
+    {
+      "at": 1792823002683,
+      "commit": "5babc1edffc8",
+      "items": [
+        "Booking cards show the right status - a shipment already departed no longer shows Not Accepted \u00b7 Booked",
+        "What Track Shipment shows for a booking now shows on its card too"
+      ]
+    },
+    {
+      "at": 1792821229939,
+      "commit": "a3c6bd1cf1a1",
+      "items": [
+        "Notifications show the flight number with its departure and arrival times - status, offload, arrival, new booking, booking changes, Milestone Reminder and Live Track",
+        "A new booking, or a booking moved to another day, fills its flight in quietly once the app has read it"
+      ]
+    },
+    {
+      "at": 1792818226279,
+      "commit": "e4d4eb808e22",
+      "items": [
+        "Capture AWB: the pencil beside Remarks and Handling Instructions shows again (it was an empty box), with no red ring left around it after its panel closes"
+      ]
+    },
+    {
+      "at": 1792814815537,
+      "commit": "c3f2a3ae4591",
+      "items": [
+        "Capture AWB: the portal's own Done / Cancel (Remarks, Handling Information and other panels) show again - the bottom bar steps aside while they're open"
+      ]
+    },
+    {
+      "at": 1792805880062,
+      "commit": "38dfecf650c5",
+      "items": [
+        "Capture AWB: after saving, a simple Saved message with OK"
+      ]
+    },
+    {
+      "at": 1792804784854,
+      "commit": "fe78eb50d001",
+      "items": [
+        "Capture AWB: Print AWB makes the PDF straight from the open page - no long preparing step",
+        "After saving, a clear Saved sheet with Print AWB and Go Back",
+        "The portal's own Save and Print at the top are hidden - the bottom bar has them"
+      ]
+    },
+    {
+      "at": 1792803373304,
+      "commit": "997b335cf661",
+      "items": [
+        "Capture AWB: Go Back, More, Print AWB and Save AWB together in one bar at the bottom",
+        "Unsaved changes are marked, and Go Back / Print ask before you lose or skip them",
+        "The bar no longer covers the form or the box you are typing in"
+      ]
+    },
+    {
+      "at": 1792802157120,
+      "commit": "a8e66df488d4",
+      "items": [
+        "Booking Summary: queued bookings with no flight yet show their shipment status again",
+        "Their route and date show at the top, and the empty 0h 0m is gone"
+      ]
+    },
+    {
+      "at": 1792801023576,
+      "commit": "90e4c2281140",
+      "items": [
+        "Capture AWB: the Booking Summary / Print AWB bar shows again",
+        "Label printer: Scan finds nearby printers (it never found any, and kept spinning)",
+        "Adding a photo from a high-resolution camera to a note no longer closes the app",
+        "Restoring a settings backup on a new phone could stop App Lock from opening - fixed",
+        "Split screen, pop-up windows and foldables no longer reload the portal",
+        "Update Access (GitHub token) removed from Developer Options - updates need no sign-in"
+      ]
+    },
+    {
+      "at": 1792799212084,
+      "commit": "8de3b4bc1e7f",
+      "items": [
+        "Home's My Bookings back to the portal's own list, as in the build with the bug fixes"
+      ]
+    },
+    {
+      "at": 1792615888839,
+      "commit": "cb8a47e72935",
+      "items": [
+        "Home: My Bookings redrawn - tap a count (To hand over, Accepted, Arrived...) to see just those bookings",
+        "Each booking shows how far along it is on one line, with the goods in full, pieces and weight",
+        "\u22ee opens a sheet: Booking Summary, Track, Share, Milestone Reminder, Copy, Notes, Add to Home screen",
+        "No empty band above My Bookings. Settings > Appearance > New Home Bookings Layout turns it off"
+      ]
+    },
+    {
+      "at": 1792554110910,
+      "commit": "859d65f89a91",
+      "items": [
+        "Edit AWB back to the portal's own page, as in the build before"
+      ]
+    },
+    {
+      "at": 1792553663466,
+      "commit": "21b7a8150aec",
+      "items": [
+        "Edit AWB: one box per row where they were cut off, bigger boxes to tap",
+        "Edit AWB: Other Charges as a list - the charge, its amount, who it's due to - nothing off the edge",
+        "Edit AWB: Notify and Additional Info folded; Phone layout on the At a glance card switches it all off"
+      ]
+    },
+    {
+      "at": 1792552807762,
+      "commit": "93428b16ada0",
+      "items": [
+        "Edit AWB: at a glance at the top, tabs at the bottom to jump to Pieces, Charges and the rest",
+        "Edit AWB: boxes you change are marked, and Save shows what changes before saving",
+        "Edit AWB: warns when the chargeable weight is below the weight",
+        "Capture AWB: the Booking Summary / Print AWB bar shows again"
+      ]
+    },
+    {
+      "at": 1792550575165,
+      "commit": "0d9a4ecf4bd9",
+      "items": [
+        "Create invoice: CGST and SGST stay two lines when you type the tax amount yourself",
+        "App lock: the lock timeout you pick now works, and coming back from a share or PDF locks after 10 minutes",
+        "Saved documents stay if downloading them again fails",
+        "Web Mode: only answers to the phone's own address",
+        "Flights just after midnight that leave early show as early, not a day late",
+        "Measure a box: no crash when the camera can't start, and the box lands on the calculator"
+      ]
+    },
+    {
+      "at": 1792548489117,
+      "commit": "701302d5ba59",
+      "items": [
+        "Flight Lookup: Express flights in All by the IX number they fly under"
+      ]
+    },
+    {
+      "at": 1792547228370,
+      "commit": "ef91bbfb8c92",
+      "items": [
+        "Booking Summary: find the route card when the portal draws it in pieces"
+      ]
+    },
+    {
+      "at": 1792546139812,
+      "commit": "30a25448fa1b",
+      "items": [
+        "Booking Summary: the app's summary on bookings without a LAT too"
+      ]
+    },
+    {
+      "at": 1792527213088,
+      "commit": "94895d6ca9da",
+      "items": [
+        "Flight Lookup: no empty band above the flights"
+      ]
+    },
+    {
+      "at": 1792516783662,
+      "commit": "38ff3c17a499",
+      "items": [
+        "Create invoice: rate a piece filled in from your own invoices, per customer"
+      ]
+    },
+    {
+      "at": 1792516170219,
+      "commit": "191be865e89c",
+      "items": [
+        "Create invoice: HSN of the goods filled in for far more goods"
+      ]
+    },
+    {
+      "at": 1792514252331,
+      "commit": "6fefd684d404",
+      "items": [
+        "Create invoice: remove the Stamp"
+      ]
+    },
+    {
+      "at": 1792513633426,
+      "commit": "ff88faf115d4",
+      "items": [
+        "Create invoice: the seller's stamp beside Authorised Signatory"
+      ]
+    },
+    {
+      "at": 1792473578943,
+      "commit": "f2814f4ca91d",
+      "items": [
+        "Track Shipment: Shipment waits for the timeline"
+      ]
+    },
+    {
+      "at": 1792465212285,
+      "commit": "9acb67fccd47",
+      "items": [
+        "Measure a box: aim on a box's side marks the floor below it, steadier aim"
+      ]
+    }
+  ]
+}
