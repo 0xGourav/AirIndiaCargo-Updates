@@ -1,0 +1,245 @@
+{
+  "app": "Air India Cargo",
+  "versionName": "1.1",
+  "versionCode": 3,
+  "builtAt": 1793217445457,
+  "commit": "c395e4f1af1d03681149596406b404bea8d6f001",
+  "publishedAt": 1793217605528,
+  "release": {
+    "file": "app-release.apk",
+    "sha": "dcd5224d0b0d0b2c754be92ec7c591d0c48bbff5",
+    "size": 4673268
+  },
+  "debug": {
+    "file": "app-debug.apk",
+    "sha": "863abae3c5280ada3839000a10851cf08121508e",
+    "size": 13686598
+  },
+  "builds": [
+    {
+      "at": 1793217445457,
+      "commit": "c395e4f1af1d",
+      "items": [
+        "Home bookings: the flight number is plain text; Live Status opens the flight's status"
+      ]
+    },
+    {
+      "at": 1793215700853,
+      "commit": "99c7b5d47997",
+      "items": [
+        "Live Status button back on every home booking",
+        "Times in full: Departs / Arrives, Departed / Arrived"
+      ]
+    },
+    {
+      "at": 1793214722442,
+      "commit": "910db74dac68",
+      "items": [
+        "Departure and arrival times on every home booking",
+        "Tap the flight number on a card for its live status"
+      ]
+    },
+    {
+      "at": 1793212691176,
+      "commit": "35e181c5b4e3",
+      "items": [
+        "Home bookings show departure and arrival times (Departed / Arrived in green once it happens)"
+      ]
+    },
+    {
+      "at": 1793120164657,
+      "commit": "ef6bf4ee219d",
+      "items": [
+        "The camera in the search box: a clean red button"
+      ]
+    },
+    {
+      "at": 1793096924544,
+      "commit": "3a78d450313c",
+      "items": [
+        "Header: \"Air India Cargo\" in a cleaner type, and \"Signed in as\" with your name in bold"
+      ]
+    },
+    {
+      "at": 1793095724075,
+      "commit": "4fd747b7b492",
+      "items": [
+        "Signed out: one header with a Log in button - the portal's second header row is gone",
+        "The plane photo shows under the header, above the Track box"
+      ]
+    },
+    {
+      "at": 1793094210934,
+      "commit": "c368dc5d8fa6",
+      "items": [
+        "The search box in the header is black now"
+      ]
+    },
+    {
+      "at": 1793093075300,
+      "commit": "c4d915019517",
+      "items": [
+        "New header: the search box with the camera inside it, and your account circle at the top right",
+        "Pull down at the top of the page to refresh (the reload button has gone)",
+        "Search: the camera is in its box too - tap for the camera, hold for Scan & Open"
+      ]
+    },
+    {
+      "at": 1793089609334,
+      "commit": "1b586a90f1e7",
+      "items": [
+        "Home: the total shown as INR 35,732.45"
+      ]
+    },
+    {
+      "at": 1793089083395,
+      "commit": "ca8dd6d08bf1",
+      "items": [
+        "Home: pieces, weight and \u20b9 total show within a second - asked straight from the portal, then kept for next time"
+      ]
+    },
+    {
+      "at": 1793085213546,
+      "commit": "8d755ae0884b",
+      "items": [
+        "Home: pieces, weight and total on new bookings' cards even with Battery Saver on (list refreshed hourly)"
+      ]
+    },
+    {
+      "at": 1793083630581,
+      "commit": "b553308050f5",
+      "items": [
+        "Home: compact booking cards - the status beside the route, more bookings on one screen"
+      ]
+    },
+    {
+      "at": 1793080405028,
+      "commit": "72f8657a728a",
+      "items": [
+        "Home: My Bookings cards now look like All Bookings - total, pieces, weight, product, flights and Final on each card"
+      ]
+    },
+    {
+      "at": 1793075158292,
+      "commit": "4b31b192ad82",
+      "items": [
+        "Smoother: status checks no longer start while you scroll or type",
+        "Search: no loading line, and a status updates on its card without the list redrawing"
+      ]
+    },
+    {
+      "at": 1793072388526,
+      "commit": "643ec15e30c1",
+      "items": [
+        "Statuses show sooner across the app - delivered bookings no longer re-read every minute",
+        "Search: animated results, a spinner while a status is checked, and the status pops in"
+      ]
+    },
+    {
+      "at": 1793071017437,
+      "commit": "2e5b9c0bc279",
+      "items": [
+        "Search: statuses are checked first and tried again when a read fails - no more stuck on Checking"
+      ]
+    },
+    {
+      "at": 1793069853198,
+      "commit": "536a550b54ff",
+      "items": [
+        "Search: every booking shows its status - older ones are checked as you search"
+      ]
+    },
+    {
+      "at": 1793068957043,
+      "commit": "2cb188a54fe9",
+      "items": [
+        "Search: cancelled bookings no longer counted as flying today or not accepted, and shown in red",
+        "Search: a note or invoice just saved is found by its new words straight away",
+        "Search: a specimen invoice opens its PDF",
+        "Option sheets: long lines wrap again, and the status badge always shows"
+      ]
+    },
+    {
+      "at": 1793067881338,
+      "commit": "8d0a06fc4216",
+      "items": [
+        "Search: darker look, View Details / Track / more in boxes, status in colour"
+      ]
+    },
+    {
+      "at": 1793067273459,
+      "commit": "8c5b6f531b9a",
+      "items": [
+        "Buttons have the same thin white edge as the Booking Summary tiles"
+      ]
+    },
+    {
+      "at": 1793066739391,
+      "commit": "905007cb2ed4",
+      "items": [
+        "Booking Summary shows the shipment's real status when opened from View Details (no more \"Checking where it is\u2026\")",
+        "Capture AWB: the AWB number stays on one line",
+        "Buttons get a white edge and soft shine"
+      ]
+    },
+    {
+      "at": 1793063612058,
+      "commit": "dac7f4f22d7f",
+      "items": [
+        "Search: View Details and Track on every booking, with pieces, weight and goods shown"
+      ]
+    },
+    {
+      "at": 1793062853950,
+      "commit": "89456983a4b2",
+      "items": [
+        "Search now finds your bookings even when the All Bookings list hasn't been saved, and finds them by shipper and consignee name"
+      ]
+    },
+    {
+      "at": 1792958113976,
+      "commit": "d4acfeca2319",
+      "items": [
+        "New Search: find any booking, flight, note, invoice or saved file by AWB, name, city or flight - tap the search button on the title bar"
+      ]
+    },
+    {
+      "at": 1792868417283,
+      "commit": "4e4cdab900ee",
+      "items": [
+        "Notifications show the flight's date beside its departure time"
+      ]
+    },
+    {
+      "at": 1792828108001,
+      "commit": "8f22cef7d501",
+      "items": [
+        "Booking status is checked for 4 AWBs at once, so your bookings fill in faster"
+      ]
+    },
+    {
+      "at": 1792826827612,
+      "commit": "a08f02091ed5",
+      "items": [
+        "Notifications name the flight even when it leaves after midnight",
+        "A landed flight no longer reads \"scheduled\" again a day later",
+        "New bookings get their flight in the alert, however far down the list",
+        "Track Shipment no longer shows Departed for an offloaded shipment"
+      ]
+    },
+    {
+      "at": 1792825583593,
+      "commit": "32d341794047",
+      "items": [
+        "Closed notifications show the cities too - AI-2487 \u00b7 Delhi 8:40 AM \u2192 Port Blair 12:05 PM"
+      ]
+    },
+    {
+      "at": 1792824723946,
+      "commit": "270e6ad4a169",
+      "items": [
+        "Notifications show the flight with the cities in full - AI-2487 \u00b7 Delhi \u2192 Port Blair - then its departure and arrival"
+      ]
+    }
+  ]
+}
